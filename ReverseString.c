@@ -5,6 +5,10 @@
 #define STRLEN  10
 
 int ReverseString( char *src, char *dest ) {
+    printf( "I am in fubction ReverseString\n" );
+    printf( "The input string is %s\n", src );
+    printf( "The length of the string is %d\n", strlen( src ) );
+
     int i;
     int len = strlen( src );
 
